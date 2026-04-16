@@ -1,0 +1,23 @@
+﻿@model HomePageViewModel
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var image in Model.Images)
+        {
+          <tr>
+              <td>
+                  @image.Title
+              </td>
+              <td style="text-align:center;">
+                  <img src="/images/@image.ImagePath" style="height:300px"/>
+              </td>
+          </tr>
+        }
+    </tbody>
+</table>
