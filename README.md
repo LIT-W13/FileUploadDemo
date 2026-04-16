@@ -4,7 +4,7 @@ https://github.com/LIT-W13/SessionDemo/blob/master/WebApplication14/Program.cs#L
 
 https://github.com/LIT-W13/SessionDemo/blob/master/WebApplication14/Program.cs#L21
 
-Also, to add any arbitrary C# object to session, use the following extension method (you'll need to add a using statement on top using System.Text.Json;):
+Also, to add any arbitrary C# object to session, use the following extension method (you'll need to add a using statement on top `using System.Text.Json;`):
 
 ```csharp
 public static class SessionExtensions
